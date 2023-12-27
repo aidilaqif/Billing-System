@@ -110,8 +110,8 @@ public class Login extends JFrame {
 	
 		btnLogin.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				password=passwordField.getText().toString().toLowerCase();
-				username=usernameField.getText().toString().toLowerCase();
+				password=passwordField.getText().toLowerCase();
+				username=usernameField.getText().toLowerCase();
 				passwordField.setText("");
 				usernameField.setText("");
 				if(password.equals("")||username.equals(""))

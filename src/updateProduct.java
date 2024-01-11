@@ -82,7 +82,6 @@ public class updateProduct extends JPanel {
 							case "Mats & Rugs":company.setSelectedIndex(1);break;
 							case "N/S & Electric":company.setSelectedIndex(2);break;
 						}
-						company.setSelectedIndex(selectedIndex);
 					}
 			}
 			

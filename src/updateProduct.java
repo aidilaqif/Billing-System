@@ -25,7 +25,9 @@ public class updateProduct extends JPanel {
 	JComboBox<String> company;
 	private JTextField quanField;
 	JLabel error ;
-	String id,detail,comp;
+	String id;
+	String detail;
+	String comp;
 	int quan;
 	String err="Enter product id and quantity";
 	/**

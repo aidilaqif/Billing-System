@@ -78,9 +78,18 @@ public class updateProduct extends JPanel {
 						quanField.setText(data.get(2));
 						switch(data.get(1))
 						{
-							case "General":company.setSelectedIndex(0);break;
-							case "Mats & Rugs":company.setSelectedIndex(1);break;
-							case "N/S & Electric":company.setSelectedIndex(2);break;
+							case "General":
+								company.setSelectedIndex(0);
+								break;
+							case "Mats & Rugs":
+								company.setSelectedIndex(1);
+								break;
+							case "N/S & Electric":
+								company.setSelectedIndex(2);
+								break;
+							default:
+								company.setSelectedIndex(0);
+								break;
 						}
 					}
 			}

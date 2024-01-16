@@ -51,7 +51,7 @@ public class addCashier extends JPanel {
 		btnAddCashier.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				user=userField.getText().trim();
-				pass=passwordField.getText().toString().trim().toLowerCase();
+				pass=passwordField.getText().trim().toLowerCase();
 				if(user.equals("")||pass.equals(""))
 					error.setText(err);
 				else

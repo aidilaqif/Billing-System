@@ -16,11 +16,13 @@ public class searchCashier extends JPanel {
 	JTextField idField;
 	JButton btnUpdateProduct;
 	private JLabel error;
-	String id,err="Enter product id!";
+	String id;
+	String err;
 	/**
 	 * Create the panel.
 	 */
 	public searchCashier() {
+		err="Enter product id!";
 		setLayout(null);
 		setBounds(100, 100, 840, 619);
 		JLabel lblsearch = new JLabel("SEARCH CASHIER");

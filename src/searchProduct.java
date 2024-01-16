@@ -17,11 +17,12 @@ public class searchProduct extends JPanel {
 	JButton btnSearch;
 	private JLabel error;
 	String id;
-	String err="Enter product id!";
+	String err;
 	/**
 	 * Create the panel.
 	 */
 	public searchProduct() {
+		err="Enter product id!";
 		setLayout(null);
 		setBounds(100, 100, 840, 619);
 		JLabel lblSearchProduct = new JLabel("SEARCH PRODUCT");

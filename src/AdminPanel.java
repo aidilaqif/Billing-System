@@ -27,8 +27,7 @@ public class AdminPanel extends JFrame implements ActionListener {
 	private JMenu mnSearch;
 	private JMenuItem mntmSearchProduct;
 	private JMenuItem mntmSearchCashier;
-	private JMenu mnSale;
-	private JMenuItem mntmPrintSale;
+	
 
 	
 	/**
@@ -86,10 +85,10 @@ public class AdminPanel extends JFrame implements ActionListener {
 		mntmSearchCashier = new JMenuItem("Search Cashier");
 		mnSearch.add(mntmSearchCashier);
 		
-		mnSale = new JMenu("Sale");
+		JMenu localMnSale = new JMenu("Sale");
 		menuBar.add(mnSale);
 		
-		mntmPrintSale = new JMenuItem("Print Sale");
+		JmenuItem localMntmPrintSale = new JMenuItem("Print Sale");
 		mnSale.add(mntmPrintSale);
 		mntmPrintSale.addActionListener(this);
 		

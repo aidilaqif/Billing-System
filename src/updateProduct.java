@@ -87,9 +87,7 @@ public class updateProduct extends JPanel {
 							case "N/S & Electric":
 								company.setSelectedIndex(2);
 								break;
-							default:
-								company.setSelectedIndex(0);
-								break;
+							
 						}
 					}
 			}

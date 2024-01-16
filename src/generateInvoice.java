@@ -66,7 +66,7 @@ public class generateInvoice extends JFrame implements ActionListener{
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(new BorderLayout(0, 0));
-		searchProduct sp=new searchProduct();
+		
 		
 		panels.add(new Invoice());
 		panels.add(new searchProduct());

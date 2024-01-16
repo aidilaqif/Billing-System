@@ -25,7 +25,7 @@ public class Invoice extends JPanel {
 	private JTextField UnitPrice;
 	JLabel lblName;
 	JLabel error ;
-	static int invo=1;
+	int invo=1;
 	DefaultTableModel dtm;
 	Object data[];
 	JComboBox<String> cType;

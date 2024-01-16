@@ -16,7 +16,8 @@ public class searchProduct extends JPanel {
 	JTextField idField;
 	JButton btnSearch;
 	private JLabel error;
-	String id,err="Enter product id!";
+	String id;
+	String err="Enter product id!";
 	/**
 	 * Create the panel.
 	 */

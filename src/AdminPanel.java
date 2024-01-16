@@ -85,10 +85,10 @@ public class AdminPanel extends JFrame implements ActionListener {
 		mntmSearchCashier = new JMenuItem("Search Cashier");
 		mnSearch.add(mntmSearchCashier);
 		
-		JMenu localMnSale = new JMenu("Sale");
+		JMenu mnSale = new JMenu("Sale");
 		menuBar.add(mnSale);
 		
-		JmenuItem localMntmPrintSale = new JMenuItem("Print Sale");
+		JmenuItem mntmPrintSale = new JMenuItem("Print Sale");
 		mnSale.add(mntmPrintSale);
 		mntmPrintSale.addActionListener(this);
 		
